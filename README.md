@@ -29,4 +29,6 @@ mvn clean install
 cd ../koth
 mvn clean install
 cd ../desirebungee
+mvn clean install
+
 ```
