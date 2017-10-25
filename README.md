@@ -7,44 +7,26 @@ How To
 --------------
 
 ### Compile the projects ###
-`cd vault
-
+```
+cd vault
 mvn clean install
-
 cd ../essentials
-
 mvn clean install
-
 cd ../worldborder
-
 mvn clean install
-
 cd ../factions
-
 mvn clean install
-
 cd ../DesireDependencies
-
 mvn clean install
-
 cd ../DesireCore
-
 mvn clean install
-
 cd ../DesireNPC
-
 mvn clean install
-
 cd ../DesireHub
-
 mvn clean install
-
 cd ../hcf
-
 mvn clean install
-
 cd ../koth
-
 mvn clean install
-
-cd ../desirebungee`
+cd ../desirebungee
+```
