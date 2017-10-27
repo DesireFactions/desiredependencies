@@ -23,6 +23,12 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+		<!-- Commons Codec -->
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>1.10</version>
+		</dependency>
 		<!-- Google Auth API -->
 		<dependency>
 			<groupId>com.warrenstrange</groupId>
@@ -43,9 +49,21 @@
 			<version>21.0</version>
 			<scope>compile</scope>
 		</dependency>
+		<!-- TabAPI -->
+		<dependency>
+			<groupId>org.inventivetalent</groupId>
+			<artifactId>tabapi</artifactId>
+			<version>1.1.1</version>
+		</dependency>
 	</dependencies>
+	<repositories>
+		<repository>
+			<id>inventive-repo</id>
+			<url>https://repo.inventivetalent.org/content/groups/public/</url>
+		</repository>
+	</repositories>
 	<build>
-		<plugins>			
+		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -82,6 +100,8 @@
 									<include>com.google.code.gson:gson</include>
 									<include>com.google.guava:guava</include>
 									<include>com.warrenstrange:googleauth</include>
+									<include>commons-codec:commons-codec</include>
+									<include>org.inventivetalent:tabapi</include>
 								</includes>
 							</artifactSet>
 						</configuration>
