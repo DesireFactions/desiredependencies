@@ -49,6 +49,12 @@
 			<version>21.0</version>
 			<scope>compile</scope>
 		</dependency>
+		<!-- Netty -->
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-all</artifactId>
+			<version>4.0.34.Final</version>
+		</dependency>
 	</dependencies>
 	<repositories>
 		<repository>
@@ -89,6 +95,7 @@
 							</relocations>
 							<artifactSet>
 								<includes>
+								<include>io.netty:netty-all</include>
 									<include>org.mongodb</include>
 									<include>org.mongodb.morphia</include>
 									<include>com.google.code.gson:gson</include>
