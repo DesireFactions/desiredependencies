@@ -87,12 +87,6 @@
 						</goals>
 						<configuration>
 							<createDependencyReducedPom>false</createDependencyReducedPom>
-							<relocations>
-								<relocation>
-									<pattern>com.google</pattern>
-									<shadedPattern>com.desiremc.google</shadedPattern>
-								</relocation>
-							</relocations>
 							<artifactSet>
 								<includes>
 									<include>io.netty:netty-all</include>
