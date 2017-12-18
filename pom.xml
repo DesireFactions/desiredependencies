@@ -5,6 +5,12 @@
 	<artifactId>DesireDependencies</artifactId>
 	<version>1.0</version>
 	<dependencies>
+		<!-- QuadTree API -->
+		<dependency>
+			<groupId>com.github.davidmoten</groupId>
+			<artifactId>rtree</artifactId>
+			<version>0.8-RC10</version>
+		</dependency>
 		<!-- MongoDB API -->
 		<dependency>
 			<groupId>org.mongodb</groupId>
@@ -98,6 +104,8 @@
 									<include>commons-codec:commons-codec</include>
 									<include>org.inventivetalent:tabapi</include>
 									<include>org.apache.commons:commons-io</include>
+									<include>com.github.davidmoten</include>
+									<include>io.reactivex:rxjava</include>
 								</includes>
 							</artifactSet>
 						</configuration>
